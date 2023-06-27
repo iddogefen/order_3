@@ -1,2 +1,0 @@
-#transitive_inference
-#transitive_inference
