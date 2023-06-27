@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jspsych/jspsych.js"></script>
+    <script src="jspsych-order.js"></script>
+    <script src="jspsych/plugins/jspsych-html-button-response.js"></script>
+    <script src="jspsych/plugins/jspsych-html-keyboard-response.js"></script>
+
+    <script src="Functions.js"></script>
+    <script src="jQuery.js"></script>
+
+    <!--<script src="jspsych/plugins/jspsych-preload.js"></script>-->
+
+
+    <link rel="stylesheet" href="jspsych/css/jspsych.css">
+  </head>
+  <body>
+</body>
+  <script>
+    var timeline = [];
+    var rts =[];
+
+    var trial_1 = {
+      type: 'order',
+      stimuli: ['101_1','101_2','101_3','101_4'],
+      button_label:  'Continue when done',
+
+    }
+    timeline.push(trial_1);
+
+    var trial_2 = {
+      type: 'order',
+      stimuli: ['102_1','102_2','102_3','102_4'],
+      button_label:  'Continue when done',
+
+    }
+    timeline.push(trial_2);
+
+
+
+    var trial_3 = {
+      type: 'order',
+      stimuli: ['103_1','103_2','103_3','103_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_3);
+
+    var trial_4 = {
+      type: 'order',
+      stimuli: ['104_1','104_2','104_3','104_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_4);
+
+    
+    var trial_5 = {
+      type: 'order',
+      stimuli: ['105_1','105_2','105_3','105_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_5);
+
+
+    var trial_6 = {
+      type: 'order',
+      stimuli: ['106_1','106_2','106_3','106_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_6);
+
+    var trial_7 = {
+      type: 'order',
+      stimuli: ['201_1','201_2','201_3','201_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_7);
+
+    
+    var trial_8 = {
+      type: 'order',
+      stimuli: ['202_1','202_2','202_3','202_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_8);
+
+        
+    var trial_9 = {
+      type: 'order',
+      stimuli: ['203_1','203_2','203_3','203_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_9);
+
+
+    var trial_10 = {
+      type: 'order',
+      stimuli: ['204_1','204_2','204_3','204_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_10);
+
+    
+    var trial_11 = {
+      type: 'order',
+      stimuli: ['205_1','205_2','205_3','205_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_11);
+
+
+    var trial_12 = {
+      type: 'order',
+      stimuli: ['206_1','206_2','206_3','206_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_12);
+
+    
+    var trial_13 = {
+      type: 'order',
+      stimuli: ['301_1','301_2','301_3','301_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_13);
+
+    
+    
+    var trial_14 = {
+      type: 'order',
+      stimuli: ['302_1','302_2','302_3','302_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_15);
+
+    var trial_15 = {
+      type: 'order',
+      stimuli: ['303_1','303_2','303_3','303_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_15);
+
+
+    
+    var trial_16 = {
+      type: 'order',
+      stimuli: ['304_1','304_2','304_3','304_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_16);
+
+    var trial_17 = {
+      type: 'order',
+      stimuli: ['305_1','305_2','305_3','305_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_17);
+
+    var trial_18 = {
+      type: 'order',
+      stimuli: ['306_1','306_2','306_3','306_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_18);
+
+    
+    var trial_19 = {
+      type: 'order',
+      stimuli: ['test_1','test_2','test_3','test_4'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_19);
+
+
+        
+    var trial_20 = {
+      type: 'order',
+      stimuli: ['test_5','test_6','test_7','test_8'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_20);
+
+
+            
+    var trial_21 = {
+      type: 'order',
+      stimuli: ['test_11','test_12','test_13','test_14'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_21);
+
+                
+    var trial_22 = {
+      type: 'order',
+      stimuli: ['test_15','test_16','test_17','test_18'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_22);
+
+    var trial_23 = {
+      type: 'order',
+      stimuli: ['test_21','test_22','test_23','test_24'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_23);
+
+    var trial_24 = {
+      type: 'order',
+      stimuli: ['test_25','test_26','test_27','test_28'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_24);
+
+    var trial_25 = {
+      type: 'order',
+      stimuli: ['test_31','test_32','test_33','test_34'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_25);
+
+    var trial_26 = {
+      type: 'order',
+      stimuli: ['test_35','test_36','test_37','test_38'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_26);
+
+
+    var trial_27 = {
+      type: 'order',
+      stimuli: ['test_41','test_42','test_43','test_44'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_27);
+
+    var trial_28 = {
+      type: 'order',
+      stimuli: ['test_45','test_46','test_47','test_48'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_28);
+
+    var trial_29 = {
+      type: 'order',
+      stimuli: ['test_51','test_52','test_53','test_54'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_29);
+
+    var trial_30 = {
+      type: 'order',
+      stimuli: ['test_55','test_56','test_57','test_58'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_30);
+    
+
+    var trial_31 = {
+      type: 'order',
+      stimuli: ['test_61','test_62','test_63','test_64'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_31);
+
+    var trial_32 = {
+      type: 'order',
+      stimuli: ['test_65','test_66','test_67','test_68'],
+      button_label:  'Continue when done',
+  
+    }
+    timeline.push(trial_32);
+    
+
+
+
+    jsPsych.init({
+      timeline: [trial_1,trial_2, trial_3,trial_4, trial_5, trial_6,trial_7, trial_8, trial_9,
+      trial_10,trial_11,trial_12,trial_13,trial_14,trial_15,trial_16, trial_17, trial_18,trial_19,
+      trial_20,trial_21,trial_22,trial_23,trial_24, trial_25, trial_26, trial_27, trial_28, trial_29, trial_30,
+    trial_31,trial_32],
+      on_finish: function(){
+        jsPsych.data.get().localSave('csv','mydata.csv');
+        jsPsych.data.displayData();
+
+      }
+    })
+  </script>
+</html>
